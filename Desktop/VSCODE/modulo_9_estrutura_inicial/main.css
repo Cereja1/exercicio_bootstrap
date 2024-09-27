@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+form {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+input {
+    padding: 0.5rem;
+    width: 200px;
+    margin-right: 0.5rem;
+}
+
+button {
+    padding: 0.5rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 1rem auto; 
+    padding: 0;
+    width: 50%; 
+    text-align: center; 
+}
+
+li {
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+li:hover {
+    background: #f0f0f0;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
